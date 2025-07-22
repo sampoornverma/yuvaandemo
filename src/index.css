@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Heading';
+    src: url('./fonts/Requiem.ttf') format('truetype');
+    font-weight: normal; /* You can specify different weights if needed */
+    font-style: normal;  /* You can specify different styles if needed */
+  };
+
+@font-face {
+    font-family: 'PassesFont';
+    src: url('./fonts/RoboltxVintage.ttf') format('truetype');
+    font-weight: normal; /* You can specify different weights if needed */
+    font-style: normal;  /* You can specify different styles if needed */
+  };
+
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for all links */
+}
+
